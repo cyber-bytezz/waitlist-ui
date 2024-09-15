@@ -38,7 +38,7 @@ export default function FeaturesPlanet() {
                     alt="Planet decoration"
                   />
                   <div>
-                    <Image
+                    {/*<Image
                       className="absolute -left-28 top-16 z-10 animate-[float_4s_ease-in-out_infinite_both] opacity-80 transition-opacity duration-500"
                       src={PlanetTagImg01}
                       width={253}
@@ -65,7 +65,7 @@ export default function FeaturesPlanet() {
                       width={251}
                       height={56}
                       alt="Tag 04"
-                    />
+                    />*/}
                   </div>
                 </div>
               </div>
@@ -153,6 +153,23 @@ export default function FeaturesPlanet() {
                 Secure user authentication and session management ensure a personalized experience. Hyperflux integrates authentication with Clerk and uses Postgres/Prisma for secure user session storage and management.
               </p>
             </article>
+            <article>
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+                <svg
+                  className="fill-blue-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={24}
+                  height={24}
+                >
+                  <path d="M12 2a10 10 0 0 0-7.12 2.88A10 10 0 0 0 2 12a10 10 0 0 0 2.88 7.12A10 10 0 0 0 12 22a10 10 0 0 0 7.12-2.88A10 10 0 0 0 22 12a10 10 0 0 0-2.88-7.12A10 10 0 0 0 12 2zm0 3a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7zm0 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" />
+                </svg>
+                <span>Real-Time Collaboration</span>
+              </h3>
+              <p className="text-[15px] text-gray-400">
+                Hyperflux enables real-time collaboration features, allowing users to share insights and data across teams seamlessly. Collaborate on queries, share results, and gain deeper insights together.
+              </p>
+            </article>
+
           </div>
         </div>
       </div>

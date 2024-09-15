@@ -10,17 +10,14 @@ export default function HeroHome() {
 
   const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
-    // Simulate form submission logic
     setShowNotification(true);
     setEmail('');
   };
 
-  // Close notification
   const handleCloseNotification = () => {
     setShowNotification(false);
   };
 
-  // Share message
   const message = "Excited to join the waitlist for Hyperflux! 🚀";
   const linkedinUrl = `https://www.linkedin.com/shareArticle?mini=true&url=hyper-flux.vercel.app&title=${encodeURIComponent(message)}`;
 
@@ -37,8 +34,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              AI Search Engine <br className="hidden lg:block" />
-              That Transforms the Web
+              AI Search<br className="hidden lg:block" />
+              That Changes How You Explore the Web
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -46,7 +43,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Experience Hyperflux—an advanced AI-powered search platform designed to deliver real-time, media-rich results and smart follow-up questions to enhance your search experience.
+                Discover Hyperflux—an AI-powered search platform that gives you real-time results and smart follow-up questions. Find answers faster, with rich media like images and videos, right at your fingertips.
               </p>
               {/* Join Waitlist Section */}
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
@@ -63,11 +60,11 @@ export default function HeroHome() {
                     className="btn w-full px-6 py-3 bg-gradient-to-r from-teal-500 to-blue-600 text-white shadow-lg rounded-md sm:w-auto hover:scale-105 transition-transform"
                     type="submit"
                   >
-                    Join Waitlist
+                    Join the Waitlist
                   </button>
                 </form>
                 <p className="mt-4 text-sm text-gray-500">
-                  Be the first to try Hyperflux and unlock the future of search.
+                  Be the first to experience Hyperflux and the future of search.
                 </p>
               </div>
             </div>
@@ -93,23 +90,23 @@ export default function HeroHome() {
                 </span>
                 <br />
                 <span className="animate-[code-3_10s_infinite]">
-                  "AI-driven insights just for you!"
+                  "AI-powered insights for everyone!"
                 </span>{" "}
                 <span className="animate-[code-4_10s_infinite]">
-                  "Optimized for modern web users"
+                  "Designed for modern web users"
                 </span>
                 <br />
                 <br />
                 <span className="animate-[code-5_10s_infinite] text-gray-200">
-                  AI-powered search delivered instantly.
+                  Search smarter, with instant AI help.
                 </span>
                 <br />
                 <span className="animate-[code-6_10s_infinite]">
-                  Stay tuned for the next-gen search revolution.
+                  Get ready for the next generation of search.
                 </span>
                 <br />
                 <span className="animate-[code-7_10s_infinite]">
-                  Currently under development...
+                  Coming soon...⭐
                 </span>
               </div>
             </div>
@@ -128,10 +125,10 @@ export default function HeroHome() {
               ✕
             </button>
             <h3 className="text-lg font-semibold">
-              🎉 Thank you for joining the waitlist!
+              🎉 Thanks for joining the waitlist!
             </h3>
             <p className="mt-2">
-              We'll keep you updated with the latest news.
+              We'll send you updates on Hyperflux soon.
             </p>
             <div className="mt-4 flex gap-4 items-center">
               <a

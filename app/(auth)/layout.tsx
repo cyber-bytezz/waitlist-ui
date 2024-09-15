@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Logo from "@/components/ui/logo";
 import AuthBg from "@/public/images/auth-bg.svg";
+import DecorationImg from "@/public/images/1.png"; 
 
 export default function AuthLayout({
   children,
@@ -14,7 +15,13 @@ export default function AuthLayout({
           <div className="flex h-16 items-center justify-between md:h-20">
             {/* Site branding */}
             <div className="mr-4 shrink-0">
-              <Logo />
+            <Image
+                className="rounded-full"
+                src={DecorationImg}
+                width={48}
+                height={48}
+                alt="Large testimonial"
+              />
             </div>
           </div>
         </div>

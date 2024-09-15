@@ -1,5 +1,4 @@
 import Image from "next/image";
-import TestimonialImg from "@/public/images/large-testimonial.jpg";
 import DecorationImg from "@/public/images/1.png"; // Import the new image
 
 export default function LargeTestimonial() {
@@ -23,7 +22,12 @@ export default function LargeTestimonial() {
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">HyperFlux</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
+              <a
+                className="text-blue-500"
+                href="https://linkedin.com/in/-aro-barath-chandru--12725622a/?originalSubdomain=in" // Replace with your LinkedIn URL
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 CEO, CTO
               </a>
             </div>
